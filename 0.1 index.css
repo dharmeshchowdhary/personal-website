@@ -66,6 +66,9 @@ header{
     font-weight:bold;
     margin:5px 10px;
 }
+.dark-mode:hover{
+    color:purple;
+}
 .dark-mode:active{
     background-color: black;
     color:white;   
