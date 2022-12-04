@@ -77,9 +77,86 @@ header{
     color:white;   
 }
 
-
 /* Portfolio page*/
+/* mini-navbar */
 .mini-navbar{
+    display:flex;
+    justify-content: center;
+    padding:5px;
+}
+.mini-navbar ul{
     display: flex;
+}
+.mini-navbar ul li{
+    list-style: none;
+    margin: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.mini-navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.mini-navbar ul li a:hover{
+    /* size: 30%; */
+    color: purple;
+    transition:0.2s;
+    /* border-bottom: 3px solid purple; */
+}
 
+/* skills */
+.skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    height: 30vh;
+}
+.skills ul{
+    display: flex;
+}
+.skills ul li{
+    list-style: none;
+    padding: 20px 50px;
+}
+
+/* footer */
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer h2{
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 0.9rem;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
+.footer-innerdivs{
+    padding: 50px;
+}
+.social-links, .other-links{
+    justify-content: center;
+}
+.social-links h1, .other-links h1{
+    padding: 20px;
+}
+.social-links ul, .other-links ul{
+    list-style: none;
+}
+.social-links ul li a, .other-links ul li a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    font-size: 0.95rem;
+}
+.social-links ul li a:hover , .other-links ul li a:hover{
+    color: purple;
+    transition:0.2s;
 }
