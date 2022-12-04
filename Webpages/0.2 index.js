@@ -1,7 +1,7 @@
 myheader.innerHTML = `
     <div class="navbar">
         <span class="logo">
-            <img src="#" alt="logo" class="logo"><a href="/index.html" class="logo">DC</a>
+            <img src="#" alt="logo" class="logo-image"><a href="/index.html" class="logo-name">DC</a>
         </span>
         <span class="links">
             <ul>

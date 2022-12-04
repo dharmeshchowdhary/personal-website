@@ -14,7 +14,7 @@ header{
     align-items:center;
     margin: 0 25px;
 }
-.logo{
+.logo, .logo-name{
     display: flex;
     font-size: 2rem;
     justify-content:center;
@@ -24,9 +24,12 @@ header{
     font-size:2.5rem;
     text-decoration: none;
 }
-.logo:hover{
+.logo:hover, .logo-name:hover{
     transition:0.2s;
     color:black;
+}
+.logo-name:hover + .logo-image{
+    
 }
 /* .logo a{
     text-decoration: none;
@@ -73,6 +76,10 @@ header{
     background-color: black;
     color:white;   
 }
-.blah{
-    
+
+
+/* Portfolio page*/
+.mini-navbar{
+    display: flex;
+
 }
