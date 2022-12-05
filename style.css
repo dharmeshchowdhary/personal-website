@@ -98,10 +98,8 @@ header{
     color: black;
 }
 .mini-navbar ul li a:hover{
-    /* size: 30%; */
     color: purple;
     transition:0.2s;
-    /* border-bottom: 3px solid purple; */
 }
 
 /* skills */
