@@ -5,9 +5,9 @@ myheader.innerHTML = `
         </span>
         <span class="links">
             <ul>
-                <li><a href="/Webpages/1.0 Portfolio.html">Portfolio</a></li>
-                <li><a href="/Webpages/2.0 Community.html">Community</a></li>
-                <li><a href="/Webpages/3.0 Connect.html">Connect</a></li>
+                <li><a href="/1.0 Portfolio.html">Portfolio</a></li>
+                <li><a href="/2.0 Community.html">Community</a></li>
+                <li><a href="/3.0 Connect.html">Connect</a></li>
             </ul>
         </span>
         <span class="dark-mode">
@@ -17,6 +17,7 @@ myheader.innerHTML = `
 `;
 
 myfooter.innerHTML = `
+    <hr>
     <div class="footer">
         <div class="social-links footer-innerdivs">
             <h1>Social</h1>
