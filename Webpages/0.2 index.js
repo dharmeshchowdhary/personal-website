@@ -17,24 +17,24 @@ myheader.innerHTML = `
 `;
 
 myfooter.innerHTML = `
-<div class="footer">
-    <div class="social-links footer-innerdivs">
-        <h1>Social</h1>
-        <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">LinedIn</a></li>
-            <li><a href="#">WhatsApp</a></li>
-            <li><a href="#">e-mail</a></li>
-        </ul>
+    <div class="footer">
+        <div class="social-links footer-innerdivs">
+            <h1>Social</h1>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinedIn</a></li>
+                <li><a href="#">WhatsApp</a></li>
+                <li><a href="#">e-mail</a></li>
+            </ul>
+        </div>
+        <div class="other-links footer-innerdivs">
+            <h1>Other links</h1>
+            <ul>
+                <li><a href="#">Start-up</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="other-links footer-innerdivs">
-        <h1>Other links</h1>
-        <ul>
-            <li><a href="#">Start-up</a></li>
-        </ul>
-    </div>
-</div>
-<hr>
-<h2>copyright</h2>
+    <hr>
+    <h2>copyright stuff</h2>
 `;
