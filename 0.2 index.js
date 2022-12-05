@@ -22,8 +22,8 @@ myfooter.innerHTML = `
         <div class="social-links footer-innerdivs">
             <h1>Social</h1>
             <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
+        <!--    <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>    -->
                 <li><a href="#">LinkedIn</a></li>
         <!--    <li><a href="#">WhatsApp</a></li>
                 <li><a href="#">e-mail</a></li>    -->

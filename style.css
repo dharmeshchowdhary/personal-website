@@ -50,7 +50,6 @@ header{
     margin:5px 30px;
 }
 .links ul li:hover{
-    /* size: 30%; */
     font-size: 1.5rem;
     color: purple;
     transition:0.2s;
@@ -119,6 +118,37 @@ header{
     padding: 20px 50px;
 }
 
+/* resume/cv */
+.resume\/cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.resume\/cv h1{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.downloadable-files{
+    display: flex;
+    margin: 10px;
+    justify-content:space-between;
+}
+.downloadable-files-content{
+    display: flex;
+    padding:50px 100px;
+    align-items: center;
+}
+.downloadable-files-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.downloadable-files-content a:hover{
+    color:purple;
+    transition: 0.2s;
+}
 
 /* Community page */
 .survey{
