@@ -1,7 +1,7 @@
 myheader.innerHTML = `
     <div class="navbar">
         <span class="logo">
-            <img src="#" alt="logo" class="logo-image"><a href="/index.html" class="logo-name">DC</a>
+            <img src="#" alt="logo" class="logo-image"><a href="index.html" class="logo-name">DC</a>
         </span>
         <span class="links">
             <ul>
@@ -24,9 +24,9 @@ myfooter.innerHTML = `
             <ul>
                 <li><a href="#">Instagram</a></li>
                 <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinedIn</a></li>
-                <li><a href="#">WhatsApp</a></li>
-                <li><a href="#">e-mail</a></li>
+                <li><a href="#">LinkedIn</a></li>
+        <!--    <li><a href="#">WhatsApp</a></li>
+                <li><a href="#">e-mail</a></li>    -->
             </ul>
         </div>
         <div class="other-links footer-innerdivs">
