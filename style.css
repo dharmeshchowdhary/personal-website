@@ -121,6 +121,35 @@ header{
     padding: 20px 50px;
 }
 
+
+/* Community page */
+.survey{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.survey h1{
+    padding: 10px;
+}
+.survey a{
+    text-decoration: none;
+    color: purple;
+}
+.survey-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.survey-content p{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5px;
+}
+
 /* footer */
 footer{
     display:flex;
@@ -159,4 +188,7 @@ footer h2{
 .social-links ul li a:hover , .other-links ul li a:hover{
     color: purple;
     transition:0.2s;
+}
+.blah{
+    font-size: 5rem;
 }
