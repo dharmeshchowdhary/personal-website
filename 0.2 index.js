@@ -1,7 +1,8 @@
 myheader.innerHTML = `
     <div class="navbar">
         <span class="logo">
-            <img src="#" alt="logo" class="logo-image"><a href="index.html" class="logo-name">DC</a>
+            <img src="#" alt="logo" class="logo-image">
+            <a href="index.html" class="logo-name"><text class="dharmesh">Dharmesh</text>Chowdhary</a>
         </span>
         <span class="links">
             <ul>
@@ -24,7 +25,7 @@ myfooter.innerHTML = `
             <ul>
         <!--    <li><a href="#">Instagram</a></li>
                 <li><a href="#">Twitter</a></li>    -->
-                <li><a href="#">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/dharmesh-chowdhary/">LinkedIn</a></li>
         <!--    <li><a href="#">WhatsApp</a></li>
                 <li><a href="#">e-mail</a></li>    -->
             </ul>
@@ -37,5 +38,8 @@ myfooter.innerHTML = `
         </div>
     </div>
     <hr>
-    <h2>copyright stuff</h2>
+    <div class="info">
+        <h2>Made with ❤ by Dharmesh Chowdhary</h2>
+        <text>copyright stuff</text>
+    </div>
 `;
