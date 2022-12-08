@@ -83,6 +83,18 @@ header{
     color:white;   
 }
 
+.circle-element{
+    position: absolute;
+    display: inline-block;
+    margin: 50px 250px;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    border-radius: 85px;
+}
+
 /* --- Index page --- */
 .blah{
     display:flex;
@@ -95,6 +107,7 @@ header{
     display:flex;
     justify-content: center;
     padding:5px;
+    background-color: black;
 }
 .mini-navbar ul{
     display: flex;
@@ -107,7 +120,7 @@ header{
 }
 .mini-navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .mini-navbar ul li a:hover{
     color: purple;
@@ -120,20 +133,26 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:5px;
-    height: 30vh;
+    padding:5px;
+    height: 50vh;
+    /* background-color: purple; */
 }
 .skills h1{
-    padding: 20px;
-}
-.skills text{
-    font-size: 20px;
-    color: purple;
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 3px solid black;
+    border-radius: 100px;
 }
 .skills text, ul{
     padding:7px;
     display: flex;
     align-items: center;
+}
+.skills text{
+    padding:20px;
+    font-size: 20px;
+    color: black;
 }
 .black-hole{
     position: absolute;
@@ -146,8 +165,11 @@ header{
     justify-content: flex-start;
 }
 .skills ul li{
+    font-size: 1.5em;
     list-style: none;
     padding: 0 50px;
+    color: black;
+    font-weight: bold;
 }
 
 /* resume/cv */
@@ -161,8 +183,11 @@ header{
 .resume\/cv h1{
     display: flex;
     justify-content: center;
-    width:100%;
-    padding: 20px;
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 100px;
+    border-bottom: 3px solid black;
 }
 .downloadable-files{
     display: flex;
