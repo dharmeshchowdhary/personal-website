@@ -12,7 +12,8 @@ header{
     display:flex;   
     justify-content:space-between;
     align-items:center;
-    margin: 0 25px;
+    padding: 0 25px;
+    background-color: black;
 }
 .logo, .logo-name{
     display: flex;
@@ -25,11 +26,11 @@ header{
     text-decoration: none;
 }
 .dharmesh{
-    color: black;
+    color: white;
 }
 .logo:hover, .logo-name:hover{
     transition:0.2s;
-    color:black;
+    color:white;
 }
 .logo-name:hover + .logo-image{
     
@@ -56,11 +57,12 @@ header{
     font-size: 1.5rem;
     color: purple;
     transition:0.2s;
-    border-bottom: 3px solid purple;
+    border-bottom: 4px solid purple;
+    border-radius: 3px;
 }
 .links a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .links a:active{
     color:purple;
@@ -70,16 +72,23 @@ header{
     cursor:pointer;
     font-weight:bold;
     margin:5px 10px;
+    color: white;
 }
 .dark-mode:hover{
     color:purple;
 }
 .dark-mode:active{
-    background-color: black;
+    background-color: purple;
     color:white;   
 }
 
-/* Portfolio page*/
+/* --- Index page --- */
+.blah{
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+}
+/* --- Portfolio page ---*/
 /* mini-navbar */
 .mini-navbar{
     display:flex;
