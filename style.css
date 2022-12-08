@@ -2,6 +2,7 @@
     font-family:'poppins';
     margin:0;
     padding:0;
+    transition: 0.2s;
 }
 /*  ----------- navbar ----------- */
 header{
@@ -32,9 +33,9 @@ header{
     transition:0.2s;
     color:white;
 }
-.logo-name:hover + .logo-image{
+/* .logo-name:hover + .logo-image{
     
-}
+} */
 /* .logo a{
     text-decoration: none;
 } */
@@ -125,14 +126,24 @@ header{
 .skills h1{
     padding: 20px;
 }
+.skills text{
+    font-size: 20px;
+    color: purple;
+}
 .skills text, ul{
     padding:7px;
     display: flex;
     align-items: center;
 }
-.skills text{
-    font-size: 20px;
-    color: rgb(126, 126, 255);
+.black-hole{
+    position: absolute;
+    width: 20px;
+    background-color: black;
+    display: flex;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: flex-start;
 }
 .skills ul li{
     list-style: none;
