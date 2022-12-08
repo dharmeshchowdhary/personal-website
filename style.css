@@ -212,7 +212,9 @@ footer{
     padding: 20px;
 }
 .social-links ul, .other-links ul{
+    display:flex;
     list-style: none;
+    justify-content: center;
 }
 .social-links ul li a, .other-links ul li a{
     display: flex;
