@@ -1,4 +1,24 @@
-myheader.innerHTML = `
+document.onkeydown = function (cc) {
+    if(cc.which == 85){
+        return false;
+    }
+}
+
+document.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+}, false);
+
+document.addEventListener("keydown", (e) => {
+  // USE THIS TO DISABLE CONTROL AND ALL FUNCTION KEYS
+  // if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
+  // THIS WILL ONLY DISABLE CONTROL AND F12
+  if (e.ctrlKey || e.keyCode==123) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
+});
+
+a = myheader.innerHTML = `
     <div class="navbar">
         <span class="logo">
             <img src="#" alt="logo" class="logo-image">
@@ -17,7 +37,7 @@ myheader.innerHTML = `
     </div>
 `;
 
-myfooter.innerHTML = `
+b = myfooter.innerHTML = `
     <hr>
     <div class="footer">
         <div class="social-links footer-innerdivs">
