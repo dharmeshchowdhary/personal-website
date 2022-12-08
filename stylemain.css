@@ -133,13 +133,14 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin:40px;
     padding:5px;
-    height: 50vh;
+    height: 65vh;
     /* background-color: purple; */
 }
 .skills h1{
     background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
-    margin: 5px;
+    margin: 0 0 50px 0;
     padding: 10px;
     border-bottom: 3px solid black;
     border-radius: 100px;
@@ -165,7 +166,7 @@ header{
     justify-content: flex-start;
 }
 .skills ul li{
-    font-size: 1.5em;
+    font-size: 1.3em;
     list-style: none;
     padding: 0 50px;
     color: black;
@@ -177,14 +178,16 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: center;
+    margin:40px;
+    padding:5px;
+    height: 35vh;
 }
 .resume\/cv h1{
     display: flex;
     justify-content: center;
     background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
-    margin: 5px;
+    margin: 0 0 50px 0;
     padding: 10px;
     border-radius: 100px;
     border-bottom: 3px solid black;
@@ -202,7 +205,7 @@ header{
 .downloadable-files-content a{
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .downloadable-files-content a:hover{
     color:purple;
