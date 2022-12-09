@@ -86,7 +86,7 @@ header{
 .circle-element{
     position: absolute;
     display: inline-block;
-    margin: 50px 250px;
+    margin: 50px 750px;
     padding: 50px;
     height: 50px;
     width: 50px;
@@ -96,11 +96,31 @@ header{
 }
 
 /* --- Index page --- */
-.blah{
+.intro{
     display:flex;
-    justify-content: center;
-    font-size: 50px;
+    justify-content: flex-end;
+    align-items:center;
+    /* justify-content:space-evenly; */
+    padding:60px;
 }
+.intro-para{
+    position:absolute;
+    padding:10px;
+    width:50vw;
+    margin-right:30vw;
+}
+.dc-img{
+    display:flex;
+    padding: 20px;
+}
+.image{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    object-position: 10% 1%;
+    border-radius:50%;
+}
+
 /* --- Portfolio page ---*/
 /* mini-navbar */
 .mini-navbar{
@@ -124,9 +144,17 @@ header{
 }
 .mini-navbar ul li a:hover{
     color: purple;
-    transition:0.2s;
+    transition:0.5s;
+}
+.mini-navbar ul li a:active{
+    scroll-behavior: smooth;
+    transition: 5s;
 }
 
+#skills{
+    scroll-behavior: smooth;
+    transition: 1.5s;
+}
 /* skills */
 .skills{
     display:flex;
@@ -174,6 +202,10 @@ header{
 }
 
 /* resume/cv */
+#resume\/cv{
+    scroll-behavior: smooth;
+    transition: 1.5s;
+}
 .resume\/cv{
     display: flex;
     flex-direction: column;
