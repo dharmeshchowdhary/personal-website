@@ -100,14 +100,13 @@ header{
     display:flex;
     justify-content: flex-end;
     align-items:center;
-    /* justify-content:space-evenly; */
-    padding:60px;
+    padding:80px;
 }
 .intro-para{
     position:absolute;
     padding:10px;
     width:50vw;
-    margin-right:30vw;
+    margin-right:20vw;
 }
 .dc-img{
     display:flex;
@@ -170,7 +169,6 @@ header{
     background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
     margin: 0 0 50px 0;
     padding: 10px;
-    border-bottom: 3px solid black;
     border-radius: 100px;
 }
 .skills text, ul{
@@ -178,9 +176,8 @@ header{
     display: flex;
     align-items: center;
 }
-.skills text{
+.skills h2{
     padding:20px;
-    font-size: 20px;
     color: black;
 }
 .black-hole{
@@ -194,9 +191,9 @@ header{
     justify-content: flex-start;
 }
 .skills ul li{
-    font-size: 1.3em;
+    font-size: 1.1em;
     list-style: none;
-    padding: 0 50px;
+    padding: 0 40px;
     color: black;
     font-weight: bold;
 }
@@ -222,7 +219,6 @@ header{
     margin: 0 0 50px 0;
     padding: 10px;
     border-radius: 100px;
-    border-bottom: 3px solid black;
 }
 .downloadable-files{
     display: flex;
