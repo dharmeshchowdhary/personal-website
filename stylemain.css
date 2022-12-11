@@ -14,7 +14,7 @@ header{
     justify-content:space-between;
     align-items:center;
     padding: 0 25px;
-    background-color: black;
+    background-color: rgb(43, 43, 43);
 }
 .logo, .logo-name{
     display: flex;
@@ -22,7 +22,9 @@ header{
     justify-content:center;
     align-items:center;
     padding: 10px;
-    color:purple;
+    /* color:rgb(161, 4, 161); */
+    color:rgb(211, 86, 211);
+
     font-size:2.5rem;
     text-decoration: none;
 }
@@ -56,17 +58,18 @@ header{
 }
 .links ul li:hover{
     font-size: 1.5rem;
-    color: purple;
+    color:rgb(211, 86, 211);
     transition:0.2s;
-    border-bottom: 4px solid purple;
+    border-bottom: 4px solid rgb(211, 86, 211);
+    ;
     border-radius: 3px;
 }
 .links a{
     text-decoration: none;
     color: white;
 }
-.links a:active{
-    color:purple;
+.links a:active{    
+    color:rgb(211, 86, 211);
 }
 
 .dark-mode{
@@ -76,10 +79,10 @@ header{
     color: white;
 }
 .dark-mode:hover{
-    color:purple;
+    color:rgb(211, 86, 211);
 }
 .dark-mode:active{
-    background-color: purple;
+    background-color:rgb(211, 86, 211);
     color:white;   
 }
 
@@ -200,8 +203,8 @@ header{
 
 /* resume/cv */
 #resume\/cv{
-    scroll-behavior: smooth;
-    transition: 1.5s;
+    /* scroll-behavior: smooth;
+    transition: 1.5s; */
 }
 .resume\/cv{
     display: flex;
@@ -211,6 +214,7 @@ header{
     margin:40px;
     padding:5px;
     height: 35vh;
+    /* justify-content: space-evenly; */
 }
 .resume\/cv h1{
     display: flex;
@@ -219,6 +223,11 @@ header{
     margin: 0 0 50px 0;
     padding: 10px;
     border-radius: 100px;
+}
+.dynamic-pdf{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
 }
 .downloadable-files{
     display: flex;
@@ -229,15 +238,20 @@ header{
     display: flex;
     padding: 0 50px;
     align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.downloadable-files-content text{
+    font-weight: lighter;
 }
 .downloadable-files-content a{
     text-decoration: none;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.1em;
 }
 .downloadable-files-content a:hover{
     color:purple;
-    transition: 0.2s;
+    /* transition: 0.2s; */
 }
 
 /* Community page */
