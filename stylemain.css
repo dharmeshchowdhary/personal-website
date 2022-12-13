@@ -1,0 +1,333 @@
+*{
+    font-family:'poppins';
+    margin:0;
+    padding:0;
+    transition: 0.2s;
+}
+
+/*  ----------- navbar ----------- */
+header{
+    width: 100%;
+    justify-content: center;    
+}
+.navbar {
+    display:flex;   
+    justify-content:space-between;
+    align-items:center;
+    padding: 0 25px;
+    background-color: rgb(43, 43, 43);
+}
+.logo, .logo-name{
+    display: flex;
+    font-size: 2rem;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    /* color:rgb(161, 4, 161); */
+    color:rgb(211, 86, 211);
+
+    font-size:2.5rem;
+    text-decoration: none;
+}
+.dharmesh{
+    color: white;
+}
+.logo:hover, .logo-name:hover{
+    transition:0.2s;
+    color:white;
+}
+/* .logo-name:hover + .logo-image{
+    
+} */
+/* .logo a{
+    text-decoration: none;
+} */
+.links{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.links ul {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.links ul li{
+    font-weight:bold;
+    list-style:none;
+    margin:5px 30px;
+}
+.links ul li:hover{
+    font-size: 1.5rem;
+    color:rgb(211, 86, 211);
+    transition:0.2s;
+    border-bottom: 4px solid rgb(211, 86, 211);
+    ;
+    border-radius: 3px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:active{    
+    color:rgb(211, 86, 211);
+}
+
+.dark-mode{
+    cursor:pointer;
+    font-weight:bold;
+    margin:5px 10px;
+    color: white;
+}
+.dark-mode:hover{
+    color:rgb(211, 86, 211);
+}
+.dark-mode:active{
+    background-color:rgb(211, 86, 211);
+    color:white;   
+}
+
+.circle-element{
+    position: absolute;
+    display: inline-block;
+    margin: 50px 750px;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    border-radius: 85px;
+}
+
+/* --- Index page --- */
+.intro{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:80px;
+}
+.intro-para{
+    position:absolute;
+    padding:10px;
+    width:50vw;
+    margin-right:20vw;
+}
+.dc-img{
+    display:flex;
+    padding: 20px;
+}
+.image{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    object-position: 10% 1%;
+    border-radius:50%;
+}
+
+/* --- Portfolio page ---*/
+/* mini-navbar */
+.mini-navbar{
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    background-color: black;
+}
+.mini-navbar ul{
+    display: flex;
+}
+.mini-navbar ul li{
+    list-style: none;
+    margin: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.mini-navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.mini-navbar ul li a:hover{
+    color: purple;
+    transition:0.5s;
+}
+.mini-navbar ul li a:active{
+    scroll-behavior: smooth;
+    transition: 5s;
+}
+
+#skills{
+    scroll-behavior: smooth;
+    transition: 1.5s;
+}
+/* skills */
+.skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+    padding:5px;
+    height: 65vh;
+    /* background-color: purple; */
+}
+.skills h1{
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    margin: 0 0 50px 0;
+    padding: 10px;
+    border-radius: 100px;
+}
+.skills text, ul{
+    padding:7px;
+    display: flex;
+    align-items: center;
+}
+.skills h2{
+    padding:20px;
+    color: black;
+}
+.black-hole{
+    position: absolute;
+    width: 20px;
+    background-color: black;
+    display: flex;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: flex-start;
+}
+.skills ul li{
+    font-size: 1.1em;
+    list-style: none;
+    padding: 0 40px;
+    color: black;
+    font-weight: bold;
+}
+
+/* resume/cv */
+#resume\/cv{
+    /* scroll-behavior: smooth;
+    transition: 1.5s; */
+}
+.resume\/cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+    padding:5px;
+    height: 35vh;
+    /* justify-content: space-evenly; */
+}
+.resume\/cv h1{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    margin: 0 0 50px 0;
+    padding: 10px;
+    border-radius: 100px;
+}
+.dynamic-pdf{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+}
+.downloadable-files{
+    display: flex;
+    padding: 10px;
+    justify-content:space-between;
+}
+.downloadable-files-content{
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.downloadable-files-content text{
+    font-weight: lighter;
+}
+.downloadable-files-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+.downloadable-files-content a:hover{
+    color:purple;
+    /* transition: 0.2s; */
+}
+
+/* Community page */
+.survey{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.survey h1{
+    padding: 10px;
+}
+.survey a{
+    text-decoration: none;
+    color: purple;
+}
+.survey-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.survey-content p{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5px;
+}
+
+/* footer */
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
+.footer-innerdivs{
+    padding: 50px;
+}
+.social-links, .other-links{
+    justify-content: center;
+}
+.social-links h1, .other-links h1{
+    padding: 20px;
+}
+.social-links ul, .other-links ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+}
+.social-links ul li a, .other-links ul li a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    font-size: 0.95rem;
+}
+.social-links ul li a:hover , .other-links ul li a:hover{
+    color: purple;
+    transition:0.2s;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 0.9rem;
+}
+.info ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
