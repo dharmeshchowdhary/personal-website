@@ -15,19 +15,30 @@
     </header>
 
     <div class="mini-navbar">
-        <ul>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#work-experience">Work Experience</a></li>
-            <li><a href="#education-&-certification">Education & Certification</a></li>
-            <li><a href="#resume/cv">Resume/CV</a></li>
-        </ul>
+        <div class="professional">
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#education-&-certification">Education & Certification</a></li>
+                <li><a href="#resume/cv">Resume/CV</a></li>
+            </ul>
+        </div>
+        <div class="personal">
+            <ul>
+                <li><a href="#passion">Passion</a></li>
+            </ul>
+        </div>
     </div>
 
     <page> 
         <!-- <div class="circle-element"></div> -->
+        <div class="projects" id="projects">
+            
+        </div>
+
         <div class="skills" id="skills">
-            <h1>Arsenal of my skills</h1>
+            <h1 id="pill">Arsenal of my skills</h1>
             <h2>Coding, Frameworks, Tools & Concepts</h2>
             <ul>
                 <!-- <div class="black-hole"></div> -->
@@ -45,6 +56,7 @@
             </ul>
             <ul>
                 <!-- <div class="black-hole"></div> -->
+                <li>MySQL</li>
                 <li>VSCode</li>
                 <li>Github</li>
                 <li>Git</li>
@@ -53,11 +65,27 @@
                 <!-- <div class="black-hole"></div> -->
                 <li>Object oriented programming (OOPs)</li>
                 <li>Data Structures & algorithms (DSA)</li>
+                <li>DBMS</li>
+                <li>OS</li>
             </ul>
         </div>
 
         <div class="work-experience" id="work-experience">
-
+            <h1 id="pill">Professional Experience</h1>
+            <div class="telus-international">
+                <h1>Telus International</h1>
+                <div class="pos-&-dur">
+                    <h2>Data analyst - Freelance Contractor</h2>
+                    <h3 id="dur">Dec. 2021 - Present</h3>
+                </div>
+                <div class="work-info">
+                    <ul>
+                        <li>Analyzed and categorized around 2000 data sets for a smoother machine-learning process.</li>
+                        <li>Adapted to longer work hours during peak seasons by working for 20 hours a week.</li>
+                        <li>Consistent with work, regularly updating and checking with the company.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="education-&-certification" id="education-&-certification">
@@ -65,7 +93,7 @@
         </div>
 
         <div class="resume/cv" id="resume/cv">
-            <h1>Downloadable files</h1>
+            <h1 id="pill">Downloadable files</h1>
             <!-- <div class="dynamic-pdf downloadable-files-content">
                 <text>This is the magical link</text>
                 <a href="" target="blank">Dynamic "All-in-one" pdf</a>

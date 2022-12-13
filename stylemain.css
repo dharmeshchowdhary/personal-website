@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     transition: 0.2s;
+    line-height: 1.7;
 }
 
 /*  ----------- navbar ----------- */
@@ -128,7 +129,7 @@ header{
 /* mini-navbar */
 .mini-navbar{
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding:5px;
     background-color: black;
 }
@@ -154,11 +155,17 @@ header{
     transition: 5s;
 }
 
-#skills{
+/* #skills{
     scroll-behavior: smooth;
     transition: 1.5s;
-}
+} */
 /* skills */
+#pill{
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    margin: 0 0 50px 0;
+    padding: 10px;
+    border-radius: 100px;
+}
 .skills{
     display:flex;
     flex-direction: column;
@@ -168,12 +175,6 @@ header{
     padding:5px;
     height: 65vh;
     /* background-color: purple; */
-}
-.skills h1{
-    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
-    margin: 0 0 50px 0;
-    padding: 10px;
-    border-radius: 100px;
 }
 .skills text, ul{
     padding:7px;
@@ -202,28 +203,54 @@ header{
     font-weight: bold;
 }
 
+/* ------------ Work Experience ----------- */
+#work-experience{
+    /* scroll-behavior: smooth;
+    transition: 0.5s; */
+}
+.work-experience{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+    padding:5px;
+    height: 65vh;
+}
+.telus-international{
+    text-align: center;
+}
+.telus-international h1{
+    padding:20px;
+}
+.pos-\&-dur{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+#dur{
+    font-style: italic;
+    color: gray;
+}
+.work-info ul{
+    display: flex;
+    flex-direction:column;
+}
+
 /* resume/cv */
 #resume\/cv{
     /* scroll-behavior: smooth;
     transition: 1.5s; */
 }
 .resume\/cv{
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin:40px;
     padding:5px;
-    height: 35vh;
+    height: 65vh;
     /* justify-content: space-evenly; */
-}
-.resume\/cv h1{
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
-    margin: 0 0 50px 0;
-    padding: 10px;
-    border-radius: 100px;
 }
 .dynamic-pdf{
     display: flex;
