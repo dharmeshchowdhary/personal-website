@@ -2,9 +2,9 @@ name: Build & Publish
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -13,16 +13,16 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@index
       with: 
-        path: index
+        path: code
     - name: Checkout site
       uses: actions/checkout@v2
       with: 
         token: ${{ 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 }}
-        repository: <PUBLIC_REPO>
+        repository: https://github.com/dharmeshchowdhary/personal-website-public
         ref: main 
-        path: site
+        path: https://dharmeshchowdhary.github.io/personal-website-public/
     - name: Perform jekyll build
       uses: helaili/jekyll-action@v2
       with:
@@ -42,10 +42,10 @@ jobs:
         ls -la site/ 
     - name: Publish
       run: |
-        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git config --global user.name "github-actions"
+        git config --global user.email "$dharmeshchowdhary2000@gmail.com"
+        git config --global user.name "dharmeshchowdhary"
         pushd site 
         git add . 
-        git commit -m "jekyll build from Action ${GITHUB_SHA}" 
-        git push origin master
+        git commit -m "jekyll build from Action ${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}" 
+        git push origin main
         popd
