@@ -156,6 +156,14 @@ header{
     transition: 5s;
 }
 
+.para{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:50px;
+}
+
 /* --------------- Projects --------------- */
 .projects{
     display:flex;
@@ -163,15 +171,18 @@ header{
     align-items: center;
     justify-content: center;
     margin:40px;
-    padding:5px;
-    height: 65vh;
+    padding:5px 50px;
     /* background-color: purple; */
 }
-.para{
-    display:flex;
+.proj{
+    padding: 20px;
+    height: 100vh;
+}
+.proj-name{
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
 /* --------------- skills --------------- */
