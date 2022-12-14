@@ -22,7 +22,7 @@ jobs:
         token: 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
         repository: dharmeshchowdhary/personal-website-public
         ref: main 
-        path: https://dharmeshchowdhary.github.io/personal-website-public/
+        path: https://dharmeshchowdhary/personal-website-public/
     - name: Perform jekyll build
       uses: helaili/jekyll-action@v2
       with:
