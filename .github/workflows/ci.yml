@@ -13,11 +13,11 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with: 
         path: code
     - name: Checkout site
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with: 
         token: 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
         repository: dharmeshchowdhary/personal-website-public
