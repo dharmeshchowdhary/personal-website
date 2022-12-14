@@ -19,7 +19,7 @@ jobs:
     - name: Checkout site
       uses: actions/checkout@v2
       with: 
-        token: ${{ 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 }}
+        token: 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
         repository: https://github.com/dharmeshchowdhary/personal-website-public
         ref: main 
         path: https://dharmeshchowdhary.github.io/personal-website-public/
