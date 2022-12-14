@@ -163,6 +163,12 @@ header{
     text-align: center;
     padding:50px;
 }
+#pill{
+    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
+    margin: 0 0 50px 0;
+    padding: 10px;
+    border-radius: 100px;
+}
 
 /* --------------- Projects --------------- */
 .projects{
@@ -183,6 +189,14 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding:20px;
+    width: 100%;
+}
+.proj-summary{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
 }
 
 /* --------------- skills --------------- */
@@ -191,12 +205,6 @@ header{
     scroll-behavior: smooth;
     transition: 1.5s;
 } */
-#pill{
-    background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
-    margin: 0 0 50px 0;
-    padding: 10px;
-    border-radius: 100px;
-}
 .skills{
     display:flex;
     flex-direction: column;
