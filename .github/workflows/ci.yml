@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v2
       with: 
         token: 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
-        repository: https://github.com/dharmeshchowdhary/personal-website-public
+        repository: dharmeshchowdhary/personal-website-public
         ref: main 
         path: https://dharmeshchowdhary.github.io/personal-website-public/
     - name: Perform jekyll build
