@@ -1,0 +1,51 @@
+name: Build & Publish
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with: 
+        path: index
+    - name: Checkout site
+      uses: actions/checkout@v2
+      with: 
+        token: ${{ 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 }}
+        repository: <PUBLIC_REPO>
+        ref: main 
+        path: site
+    - name: Perform jekyll build
+      uses: helaili/jekyll-action@v2
+      with:
+        jekyll_env: prod
+        jekyll_src: code
+        build_only: true
+    - name: Clean website
+      run: |
+        pushd site
+        git rm -rf .
+        popd
+    - name: Copy site
+      run: |
+        pushd site
+        cp -rvf ../code/build/* . 
+        popd
+        ls -la site/ 
+    - name: Publish
+      run: |
+        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git config --global user.name "github-actions"
+        pushd site 
+        git add . 
+        git commit -m "jekyll build from Action ${GITHUB_SHA}" 
+        git push origin master
+        popd
