@@ -42,10 +42,10 @@ jobs:
         ls -la site/ 
     - name: Publish
       run: |
-        git config --global user.email "$dharmeshchowdhary2000@gmail.com"
+        git config --global user.email "dharmeshchowdhary2000@gmail.com"
         git config --global user.name "dharmeshchowdhary"
         pushd site 
         git add . 
-        git commit -m "jekyll build from Action ${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}" 
+        git commit -m "jekyll build from Action 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" 
         git push origin main
         popd
