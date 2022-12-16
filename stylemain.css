@@ -184,21 +184,37 @@ header{
     padding: 20px;
     height: 100vh;
 }
+.proj h3{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .proj-name{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding:20px;
-    width: 100%;
 }
 .proj-summary{
     display:flex;
     justify-content: center;
     align-items: center;
-    width:100%;
 }
-
+.proj-design{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.proj-design img{
+    padding: 0 50px 20px 50px;
+}
+.research-paper{
+    padding: 20px;
+}
+.research-paper a{
+    color: black;
+}
 /* --------------- skills --------------- */
 
 /* #skills{
