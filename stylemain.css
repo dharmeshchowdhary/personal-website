@@ -194,17 +194,23 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding:20px;
+}
+.proj-name h2{
+    padding-top: 5px;
 }
 .proj-summary{
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .proj-design{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding: 0 50px 0 0;
 }
 .proj-design img{
     padding: 0 50px 20px 50px;
@@ -214,6 +220,9 @@ header{
 }
 .research-paper a{
     color: black;
+}
+.proj-plans{
+    text-align:center;
 }
 /* --------------- skills --------------- */
 
