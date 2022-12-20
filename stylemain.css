@@ -442,7 +442,7 @@ footer{
 }
 
 /* Mobile responsive */
-@media(max-width:500px){
+@media screen and (max-width:500px){
     *{
         margin: 0;
         padding:0;
@@ -464,6 +464,7 @@ footer{
         display: inline-block;
         text-align: flex-start;
         justify-content: flex-start;
+        position: unset;
     }
     .dc-img{
         display: flex;
