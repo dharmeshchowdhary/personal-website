@@ -5,6 +5,9 @@
     transition: 0.2s;
     line-height: 1.7;
 }
+html{
+    font-size: 100%; 
+}
 
 /*  ----------- navbar ----------- */
 header{
@@ -15,7 +18,7 @@ header{
     display:flex;   
     justify-content:space-between;
     align-items:center;
-    padding: 0 25px;
+    padding: 0 2rem;
     background-color: rgb(43, 43, 43);
 }
 .logo, .logo-name{
@@ -23,7 +26,7 @@ header{
     font-size: 2rem;
     justify-content:center;
     align-items:center;
-    padding: 10px;
+    padding: 1rem;
     /* color:rgb(161, 4, 161); */
     color:rgb(211, 86, 211);
 
@@ -56,15 +59,15 @@ header{
 .links ul li{
     font-weight:bold;
     list-style:none;
-    margin:5px 30px;
+    margin:2rem 2.5rem;
 }
 .links ul li:hover{
     font-size: 1.5rem;
     color:rgb(211, 86, 211);
     transition:0.2s;
-    border-bottom: 4px solid rgb(211, 86, 211);
+    border-bottom: 0.3rem solid rgb(211, 86, 211);
     ;
-    border-radius: 3px;
+    border-radius: 0.3rem;
 }
 .links a{
     text-decoration: none;
@@ -77,7 +80,7 @@ header{
 .dark-mode{
     cursor:pointer;
     font-weight:bold;
-    margin:5px 10px;
+    margin:1rem 2rem;
     color: white;
 }
 .dark-mode:hover{
@@ -91,13 +94,13 @@ header{
 .circle-element{
     position: absolute;
     display: inline-block;
-    margin: 50px 750px;
-    padding: 50px;
-    height: 50px;
-    width: 50px;
+    margin: 5rem 75rem;
+    padding: 5rem;
+    height: 5rem;
+    width: 5rem;
     background-color: black;
     background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
-    border-radius: 85px;
+    border-radius: 8.5rem;
 }
 
 /* --- Index page --- */
@@ -105,22 +108,24 @@ header{
     display:flex;
     justify-content: flex-end;
     align-items:center;
-    padding:80px;
-    width:80vw;
+    padding:8rem;
+    /* width:80vw; */
 }
 .intro-para{
-    position:absolute;
-    padding:10px;
-    width:50vw;
-    margin-right:20vw;
+    position:relative;
+    padding:1rem;
+    /* width:50vw; */
+    /* margin-right:20vw; */
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .dc-img{
     display:flex;
-    padding: 20px;
+    padding: 2rem;
 }
 .image{
-    height: 450px;
-    width: 450px;
+    height: 45rem;
+    width: 45rem;
     object-fit: cover;
     object-position: 10% 1%;
     border-radius:50%;
@@ -131,7 +136,7 @@ header{
 .mini-navbar{
     display:flex;
     justify-content: space-evenly;
-    padding:5px;
+    padding:.5rem;
     background-color: black;
 }
 .mini-navbar ul{
@@ -139,8 +144,8 @@ header{
 }
 .mini-navbar ul li{
     list-style: none;
-    margin: 2px;
-    padding: 5px 10px;
+    margin: .2rem;
+    padding: .5rem 1rem;
     cursor: pointer;
 }
 .mini-navbar ul li a{
@@ -161,13 +166,13 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding:50px;
+    padding:5rem;
 }
 #pill{
     background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
-    margin: 0 0 50px 0;
-    padding: 10px;
-    border-radius: 100px;
+    margin: 0 0 5rem 0;
+    padding: 1rem;
+    border-radius: 10rem;
 }
 
 /* --------------- Projects --------------- */
@@ -176,16 +181,16 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:40px;
-    padding:5px 50px;
+    margin:4rem;
+    padding:.5rem 5rem;
     /* background-color: purple; */
 }
 .proj{
-    padding: 20px;
+    padding: 2rem;
     height: 100vh;
 }
 .proj h3{
-    padding: 20px;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,10 +200,10 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding:20px;
+    padding:2rem;
 }
 .proj-name h2{
-    padding-top: 5px;
+    padding-top: 0.5rem;
 }
 .proj-summary{
     display:flex;
@@ -210,13 +215,13 @@ header{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 0 50px 0 0;
+    padding: 0 5rem 0 0;
 }
 .proj-design img{
-    padding: 0 50px 20px 50px;
+    padding: 0 5rem 2rem 5rem;
 }
 .research-paper{
-    padding: 20px;
+    padding: 2rem;
 }
 .research-paper a{
     color: black;
@@ -235,34 +240,34 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:40px;
-    padding:5px;
+    margin:4rem;
+    padding:.5rem;
     height: 100vh;
     /* background-color: purple; */
 }
 .skills text, ul{
-    padding:7px;
+    padding:.7rem;
     display: flex;
     align-items: center;
 }
 .skills h2{
-    padding:20px;
+    padding:2rem;
     color: black;
 }
 .black-hole{
     position: absolute;
-    width: 20px;
+    width: 2rem;
     background-color: black;
     display: flex;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 15px;
+    height: 0rem;
+    border: .1rem solid black;
+    border-radius: 1.5rem;
     justify-content: flex-start;
 }
 .skills ul li{
     font-size: 1.1em;
     list-style: none;
-    padding: 0 40px;
+    padding: 0 4rem;
     color: black;
     font-weight: bold;
 }
@@ -277,8 +282,8 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:40px;
-    padding:5px;
+    margin:4rem;
+    padding:.5rem;
     height: 100vh;
 }
 .telus-international{
@@ -286,7 +291,7 @@ header{
     text-align: center;
 }
 .telus-international h1{
-    padding:20px;
+    padding:2rem;
 }
 .pos-\&-dur{
     display: flex;
@@ -312,24 +317,24 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:40px;
-    padding:5px;
+    margin:4rem;
+    padding:.5rem;
     height: 65vh;
     /* justify-content: space-evenly; */
 }
 .dynamic-pdf{
     display: flex;
     flex-direction: column;
-    margin: 0 0 20px 0;
+    margin: 0 0 2rem 0;
 }
 .downloadable-files{
     display: flex;
-    padding: 10px;
+    padding: 1rem;
     justify-content:space-between;
 }
 .downloadable-files-content{
     display: flex;
-    padding: 0 50px;
+    padding: 0 5rem;
     align-items: center;
     font-weight: bold;
     font-size: 1.1em;
@@ -353,10 +358,10 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:10px;
+    padding:1rem;
 }
 .survey h1{
-    padding: 10px;
+    padding: 1rem;
 }
 .survey a{
     text-decoration: none;
@@ -366,13 +371,13 @@ header{
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 1rem;
 }
 .survey-content p{
     display: flex;
     justify-content: center;
     width: 50%;
-    padding: 5px;
+    padding: .5rem;
 }
 
 /* -------------- Connect page-------------- */
@@ -382,8 +387,8 @@ header{
     align-items: center;
 }
 .email a{
-    padding:50px;
-    font-size: 2.5rem;
+    padding:5rem;
+    font-size: .25rem;
     color:black;
     text-decoration: none;
 }
@@ -398,13 +403,13 @@ footer{
     justify-content: center;
 }
 .footer-innerdivs{
-    padding: 50px;
+    padding: 5rem;
 }
 .social-links, .other-links{
     justify-content: center;
 }
 .social-links h1, .other-links h1{
-    padding: 20px;
+    padding: 2rem;
 }
 .social-links ul, .other-links ul{
     display:flex;
@@ -416,7 +421,7 @@ footer{
     text-decoration: none;
     justify-content: center;
     color: black;
-    font-size: 0.95rem;
+    font-size: 0.095rem;
 }
 .social-links ul li a:hover , .other-links ul li a:hover{
     color: purple;
@@ -427,11 +432,74 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    font-size: 0.9rem;
+    padding: 4rem;
+    font-size: 0.09rem;
 }
 .info ul{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Mobile responsive */
+@media(max-width:500px){
+    *{
+        margin: 0;
+        padding:0;
+        width: 100%;
+    }
+    html{
+        width: 100%;
+        font-size:20%;
+        margin:0;
+        padding:0;
+    }
+    .intro-para{
+        margin:0;
+        padding:0;
+        display: flex;
+        text-align: flex-start;
+        justify-content: flex-start;
+    }
+    .dc-img{
+        display: flex;
+        justify-content: flex-end;
+        height: 50%;
+    }
+}
+@media(max-width:1000px){
+    *{
+        margin:0;
+        padding:0;
+        /* width: 100%; */
+    }
+    html{
+        width:auto;
+        font-size: 30%;
+    }
+    /* .dc-img{
+        height: 50%;
+    }*/
+}
+@media(max-width:1500px){
+    *{
+        margin:0;
+        padding:0;
+        /* width: 100%; */
+    }
+    html{
+        width:auto;
+        /* font-size: 60%; */
+    }
+    /* .dc-img{
+        height: 50%;
+    }*/
+    .intro-para{
+        position:absolute;
+        padding:1rem;
+        width:50vw;
+        margin-right:10vw;
+        justify-content: center;
+        align-items: center;
+    }
 }
