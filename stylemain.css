@@ -18,10 +18,23 @@ header{
     display:flex;   
     justify-content:space-between;
     align-items:center;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     background-color: rgb(43, 43, 43);
 }
-.logo, .logo-name{
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo-image{
+    transition: 1s;
+    width:8rem;
+    height:8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.logo-name{
     display: flex;
     font-size: 2rem;
     justify-content:center;
@@ -113,19 +126,20 @@ header{
 }
 .intro-para{
     position:relative;
-    padding:1rem;
+    padding:2rem;
     /* width:50vw; */
     /* margin-right:20vw; */
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 1rem;
 }
 .dc-img{
     display:flex;
-    padding: 2rem;
+    padding: 1rem;
 }
 .image{
-    height: 45rem;
-    width: 45rem;
+    height: 40rem;
+    width: 40rem;
     object-fit: cover;
     object-position: 10% 1%;
     border-radius:50%;
@@ -352,6 +366,24 @@ header{
     /* transition: 0.2s; */
 }
 
+/* Passion */
+.passion-page{
+    display:flex;
+    padding:.5rem;
+    margin:5rem; 
+    height: 65vh; 
+    justify-content: center;
+    align-items: center;
+}
+.passion-page-des{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding:5rem; */
+}
+
 /* Community page */
 .survey{
     display:flex;
@@ -400,7 +432,7 @@ footer{
 }
 .footer{
     display:flex;
-    justify-content: center;
+    justify-content: center; 
 }
 .footer-innerdivs{
     padding: 5rem;
@@ -409,19 +441,21 @@ footer{
     justify-content: center;
 }
 .social-links h1, .other-links h1{
-    padding: 2rem;
+    padding: 1rem;
 }
 .social-links ul, .other-links ul{
     display:flex;
+    flex-direction: column;
     list-style: none;
     justify-content: center;
+    align-items: flex-start;
 }
 .social-links ul li a, .other-links ul li a{
     display: flex;
     text-decoration: none;
     justify-content: center;
     color: black;
-    font-size: 0.095rem;
+    font-size: 5rem;
 }
 .social-links ul li a:hover , .other-links ul li a:hover{
     color: purple;
@@ -433,7 +467,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    font-size: 0.09rem;
+    font-size: 1rem;
 }
 .info ul{
     display:flex;
@@ -464,7 +498,10 @@ footer{
         display: inline-block;
         text-align: flex-start;
         justify-content: flex-start;
-        position: unset;
+        /* position: unset; */
+    }
+    .intro-para p{
+        font-size: 3rem;
     }
     .dc-img{
         display: flex;
