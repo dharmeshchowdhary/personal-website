@@ -26,7 +26,7 @@ a = myheader.innerHTML = `
         </span>
         <span class="links">
             <ul>
-                <-- <li><a href="1.0 Portfolio.html">Portfolio</a></li>
+                <!-- <li><a href="1.0 Portfolio.html">Portfolio</a></li>
                 <li><a href="2.0 Community.html">Community</a></li> -->
                 <li><a href="3.0 Connect.html">Connect</a></li>
             </ul>
