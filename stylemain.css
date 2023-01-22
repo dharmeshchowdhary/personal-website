@@ -60,6 +60,7 @@ header{
     text-decoration: none;
 } */
 .links{
+    width: 70%;
     display:flex;
     align-items: center;
     justify-content:center;
@@ -68,18 +69,18 @@ header{
     display:flex;
     align-items: center;
     justify-content:center;
+    position: relative;
 }
 .links ul li{
     font-weight:bold;
     list-style:none;
-    margin:2rem 2.5rem;
+    position:absolute;
 }
 .links ul li:hover{
     font-size: 1.5rem;
     color:rgb(211, 86, 211);
     transition:0.2s;
     border-bottom: 0.3rem solid rgb(211, 86, 211);
-    ;
     border-radius: 0.3rem;
 }
 .links a{
