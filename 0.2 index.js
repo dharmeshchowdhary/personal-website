@@ -26,14 +26,14 @@ a = myheader.innerHTML = `
         </span>
         <span class="links">
             <ul>
-                <li><a href="1.0 Portfolio.html">Portfolio</a></li>
-                <li><a href="2.0 Community.html">Community</a></li>
+                <-- <li><a href="1.0 Portfolio.html">Portfolio</a></li>
+                <li><a href="2.0 Community.html">Community</a></li> -->
                 <li><a href="3.0 Connect.html">Connect</a></li>
             </ul>
         </span>
-        <span class="dark-mode">
+        <!-- <span class="dark-mode">
             <img src="#" alt="dark-mode" class="dark-mode">Dark
-        </span>
+        </span> -->
     </div>
 `;
 
@@ -51,13 +51,13 @@ b = myfooter.innerHTML = `
                 <li><a href="#" target="blank">e-mail</a></li>    -->
             </ul>
         </div>
-        <div class="other-links footer-innerdivs">
+        <!-- <div class="other-links footer-innerdivs">
             <h1>Other links</h1>
             <ul>
-                <!-- <li><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeB57Kt8XaDfTEoF6ZoI66-1HNgFRNLpHaxMyNqxE58wlEMjg/viewform?embedded=true" width="640" height="1625" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></li> -->
+                <li><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeB57Kt8XaDfTEoF6ZoI66-1HNgFRNLpHaxMyNqxE58wlEMjg/viewform?embedded=true" width="640" height="1625" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></li>
                 <li><a href="https://forms.gle/2A3Vsq1YBTF1uimH7" target="blank">Start-up</a></li>
             </ul>
-        </div>
+        </div> -->
     </div>
     <div class="info">
         <h2>Made with ❤ by Dharmesh Chowdhary</h2>
