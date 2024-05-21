@@ -1,22 +1,22 @@
-document.onkeydown = function (cc) {
-    if(cc.which == 85){
-        return false;
-    }
-}
+// document.onkeydown = function (cc) {
+//     if(cc.which == 85){
+//         return false;
+//     }
+// }
 
-document.addEventListener("contextmenu", (e) => {
-  e.preventDefault();
-}, false);
+// document.addEventListener("contextmenu", (e) => {
+//   e.preventDefault();
+// }, false);
 
-document.addEventListener("keydown", (e) => {
-  // USE THIS TO DISABLE CONTROL AND ALL FUNCTION KEYS
-  // if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
-  // THIS WILL ONLY DISABLE CONTROL AND F12
-  if (e.ctrlKey || e.keyCode==123) {
-    e.stopPropagation();
-    e.preventDefault();
-  }
-});
+// document.addEventListener("keydown", (e) => {
+//   // USE THIS TO DISABLE CONTROL AND ALL FUNCTION KEYS
+//   // if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
+//   // THIS WILL ONLY DISABLE CONTROL AND F12
+//   if (e.ctrlKey || e.keyCode==123) {
+//     e.stopPropagation();
+//     e.preventDefault();
+//   }
+// });
 
 a = myheader.innerHTML = `
     <div class="navbar">
@@ -24,13 +24,13 @@ a = myheader.innerHTML = `
             <img src="Extras/Logo/DC.png" width="100rem" height="100rem" alt="logo" class="logo-image">
             <a href="index.html" class="logo-name"><text class="dharmesh">Dharmesh</text>Chowdhary</a>
         </span>
-        <span class="links">
+        <div class="links">
             <ul>
                 <!-- <li><a href="1.0 Portfolio.html">Portfolio</a></li>
                 <li><a href="2.0 Community.html">Community</a></li> -->
                 <li><a href="3.0 Connect.html">Connect</a></li>
             </ul>
-        </span>
+        </div>
         <!-- <span class="dark-mode">
             <img src="#" alt="dark-mode" class="dark-mode">Dark
         </span> -->

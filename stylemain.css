@@ -20,6 +20,7 @@ header{
     align-items:center;
     padding: 1rem 2rem;
     background-color: black;
+    /* width: 100%; */
 }
 .logo{
     display:flex;
@@ -60,21 +61,22 @@ header{
     text-decoration: none;
 } */
 .links{
-    width: 70%;
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content:center;
 }
 .links ul {
+    width: 100%;
     display:flex;
     align-items: center;
-    justify-content:center;
-    position: relative;
+    justify-content:space-evenly;
+    /* position: relative; */
 }
 .links ul li{
     font-weight:bold;
     list-style:none;
-    position:absolute;
+    /* position:absolute; */
 }
 .links ul li:hover{
     font-size: 1.5rem;
@@ -170,12 +172,31 @@ header{
     transition: 5s;
 }
 
-.para{
+.portfolio-overview{
     display:flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
     padding:5rem;
+}
+.sec-1{
+    display: flex;
+}
+.sec-intro, .sec-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-intro{
+    flex-direction: column;
+}
+.sec-list ul{
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    list-style: none;
 }
 #pill{
     background-image: linear-gradient(-45deg, purple 0 40%, transparent 40% 100%);
